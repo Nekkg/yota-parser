@@ -1,0 +1,26 @@
+# Local Python and browser installations
+.runtime/
+.venv/
+.browsers/
+
+# Python caches and package metadata
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated builds and portable binaries
+/.build/
+/bin/
+/dist/
+*.spec
+
+# User results, including custom file names
+/results/*
+!/results/.gitkeep
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
