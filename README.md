@@ -205,17 +205,3 @@ $env:PYTHONPATH = "$PWD/src"
 ```
 
 Набор использует подменённые ответы API и временные файлы для проверки обработки ошибок, сохранения истории, сортировки и параметров топа.
-
-## Публикация на GitHub
-
-Создайте пустой репозиторий на GitHub. Для первой публикации выполните в папке проекта, заменив `USERNAME/REPOSITORY` своим адресом:
-
-```powershell
-git init -b main
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/USERNAME/REPOSITORY.git
-git push -u origin main
-```
-
-Если локальный репозиторий уже инициализирован, повторять `git init` не требуется. Готовую папку `dist/YotaParser` можно передавать отдельно или вручную прикладывать её архив к GitHub Release; бинарные файлы не добавляются в исходный репозиторий.
